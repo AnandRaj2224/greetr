@@ -1,2 +1,3 @@
 var g = G$('john', 'doe');
-console.log(g);
+g.greet().setLang('frbb').greet(true);
+
